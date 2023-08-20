@@ -102,33 +102,3 @@ searchBtn.onclick = function () {
     flag = 0;
   }
 };
-
-// // Store the original display values of menu items
-// const originalDisplay = [];
-// menuItems.forEach((menuItem) => {
-//   originalDisplay.push(menuItem.style.display);
-// });
-
-// // Function to hide menu items and show search input and button
-// function showSearchView() {
-//   menuItems.forEach((menuItem) => {
-//     menuItem.style.display = "none";
-//   });
-//   searchInput.style.display = "block";
-//   searchBtn.style.display = "block";
-// }
-
-// // Function to revert back to the previous view
-// function revertToPreviousView() {
-//   menuItems.forEach((menuItem, index) => {
-//     menuItem.style.display = originalDisplay[index];
-//   });
-//   searchInput.style.display = "none";
-//   searchBtn.style.display = "none";
-// }
-
-// // Add event listener for search icon click
-// searchIcon.addEventListener("click", showSearchView);
-
-// // Add event listener for search button click
-// searchButton.addEventListener("click", revertToPreviousView);
